@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url("../img/Background_pictures/Calculator_Background.jpg");
+  background-image: url("../img/Background_pictures/Calculator_Background.jpg"); /* Picture obtained from google image */
   background-size: cover;
 }
 
@@ -14,7 +14,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: orange;
-  background-image: url("../img/Background_pictures/De_Kamper.PNG");
+  background-image: url("../img/Background_pictures/De_Kamper.PNG"); /* Picture Refrence link : https://www.linkedin.com/in/adriaan-de-kamper-922626b1/overlay/photo/ */
   background-size: cover;
   opacity: 0.8;
 }
