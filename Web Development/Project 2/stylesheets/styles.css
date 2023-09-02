@@ -1,18 +1,36 @@
+/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  .calculator {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f4f4f4;
-  }
-  button {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    margin: 5px;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("../img/Background_pictures/Calculator_Background.jpg");
+  background-size: cover;
+}
+
+/* Calculator styles */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: orange;
+  background-image: url("../img/Background_pictures/De_Kamper.PNG");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/* Button styles */
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  background-color: green;
+  opacity: 0.5;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  color: white;
+}

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character set and responsive design -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <script src="scripts/Javascript.js" >
-
-    </script>
+    <!-- Link to external JavaScript file -->
+    <script src="scripts/Javascript.js"></script>
 </head>
 <body>
+    <!-- Calculator container -->
     <div class="calculator">
         <form id="calculatorForm">
+          <!-- Input field for displaying results -->
           <input type="text" id="result" readonly>
           <br>
+          <!-- Calculator buttons -->
           <button type="button" onclick="appendToResult('1')">1</button>
           <button type="button" onclick="appendToResult('2')">2</button>
           <button type="button" onclick="appendToResult('3')">3</button>
@@ -35,7 +39,11 @@
           <button type="button" onclick="calculateResult()">=</button>
           <button type="button" onclick="appendToResult('/')">/</button>
         </form>
-      </div>
-
+    </div>
+  
+    <!-- Footer with copyright information -->
+    <footer>
+        &copy; 2023 Adriaan de Kamper. All rights reserved.
+    </footer>
 </body>
 </html>
